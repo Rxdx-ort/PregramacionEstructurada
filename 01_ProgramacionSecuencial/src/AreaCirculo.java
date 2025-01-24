@@ -13,6 +13,6 @@ public class AreaCirculo {
         area = PI + Math.pow(radio,2);
         salida = "El area del circulo es: " + radio + "es" + area;
 
-        JOptionPane.showMessageDialog();
+        JOptionPane.showMessageDialog(null, salida);
     }
 }
